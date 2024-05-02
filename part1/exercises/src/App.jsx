@@ -1,8 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
-import MovieList from './components/MovieList.jsx';
-import ChoresList from './components/ChoresList.jsx';
-import BookList from './components/BookList.jsx';
+import logo from './logo.svg'
+import './App.css'
+import MovieList from './components/MovieList.jsx'
+import ChoresList from './components/ChoresList.jsx'
+import BookList from './components/BookList.jsx'
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <ChoresList />
       <BookList />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
