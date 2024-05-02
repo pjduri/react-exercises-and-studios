@@ -1,8 +1,8 @@
 export default function BookList() {
-   let pageTitle = "shrug";
-   let book1 = "google.com";
-   let book2 = "";
-   let book3 = "";
+   let pageTitle = 'My Favorite Books'
+   let book1 = 'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1156897088i/350.jpg'
+   let book2 = 'https://m.media-amazon.com/images/I/51TooQyfKeL.jpg'
+   let book3 = 'https://m.media-amazon.com/images/I/61MjUhKRhgL._AC_UF1000,1000_QL80_.jpg'
 
    return (
       <div>
