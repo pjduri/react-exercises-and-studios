@@ -2,7 +2,6 @@ import React from 'react'
 import classes from './ChoresList.module.css'
 
 export default function ChoresList () {
-   console.log(classes)
    return (
       <>
          <h3 className={classes.choresHeading}>Chores</h3>

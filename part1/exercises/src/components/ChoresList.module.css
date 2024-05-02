@@ -3,9 +3,11 @@
    font-family: cursive;
    font-size: 1.3vw;
    font-style: italic;
+   text-align: left;
 }
 
 .choresHeading {
    color: black;
    text-decoration: underline;
+   text-align: left;
 }
