@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Description.module.css'
 
-export function RecipeAuthor() {
+function RecipeAuthor() {
 
     const authorLink = 'https://panlasangpinoy.com/about-2/'
     const authorPhoto = 'https://panlasangpinoy.com/wp-content/uploads/2020/03/Vanjo-Merano-Panlasang-Pinoy.jpg'
@@ -12,7 +12,7 @@ export function RecipeAuthor() {
             <img style={{height: '70vh'}} src={authorPhoto} alt='Vanjo Merano' className={styles.imageUpdates} />
             <div>
                 <h3>{authorName}</h3>
-                <a href={authorLink}>Panlasang Pinoy</a>
+                <a target='_blank' href={authorLink}>Panlasang Pinoy</a>
             </div>
         </div>
     )

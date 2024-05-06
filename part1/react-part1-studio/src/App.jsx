@@ -9,7 +9,7 @@ function App() {
     <div className="App recipePhotoBlock">
       <div>
         <RecipePhoto />
-        <div>
+        <div className="App recipePhotoBlock">
           <RecipeDescription />
           <RecipeIngredients />
         </div>

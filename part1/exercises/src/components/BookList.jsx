@@ -1,4 +1,4 @@
-export default function BookList() {
+function BookList() {
    let pageTitle = 'My Favorite Books'
    let book1 = 'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1156897088i/350.jpg'
    let book2 = 'https://m.media-amazon.com/images/I/51TooQyfKeL.jpg'
@@ -15,3 +15,5 @@ export default function BookList() {
       </div>
    );
 }
+
+export default BookList

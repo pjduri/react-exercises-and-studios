@@ -1,7 +1,7 @@
 import React from 'react'
 import classes from './MovieList.module.css'
 
-class MovieList extends React.Component {
+export default class MovieList extends React.Component {
    render() {
       const movies = [
          "Pride and Prejudice", 
@@ -23,4 +23,3 @@ class MovieList extends React.Component {
    }
 }
 
-export default MovieList
