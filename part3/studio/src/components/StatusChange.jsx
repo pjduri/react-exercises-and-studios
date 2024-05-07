@@ -11,7 +11,7 @@ export default function StatusChange() {
 
    const handleSubmit = (event) => {
       event.preventDefault()
-      setRecipeStatus(!recipeStatus)
+      setRecipeStatus(true)
    }
 
    return (

@@ -2,7 +2,7 @@ import { useState } from 'react'
 
 export default function BoardAssignment() {
    const boards = [
-      { label: '--', value: 'no boards yet!' },
+      // { label: '--', value: 'no boards yet!' },
       { label: 'Desserts', value: 'Desserts' },
       { label: 'Filipino', value: 'Filipino' },
       { label: 'Baked Tasties', value: 'Baked Tasties' }
